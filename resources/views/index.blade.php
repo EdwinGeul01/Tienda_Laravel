@@ -29,15 +29,17 @@
 <div class="mt-16  w-4/6 mx-auto">
     <h1 class="text-white pl-5 text-2xl font-light bg-slate-500"> 🚗🚙BIENVENIDOS🚐</h1>
     <div class="w-[100%] mb-10 mt-10 flex flex-row space-x-10 justify-center" >
-        <div class="w-1/4 h-80 bg-slate-100">
-                
+        <div class="w-1/4 h-40 bg-slate-100 relative flex flex-col justify-center">
+            <a href="#" class="img-link-product">
+                <p class="z-[1] text-black text-center text-3xl select-none" >AUTO ROJO</p>
+                <img src="/img/redcar.jpg" alt="" class="object-fill w-[100%] h-[100%] shadow-black shadow-sm absolute z-0  top-0 img-product" >
+            </a>
 
-            
         </div>
-        <div class="w-1/4 h-80 bg-slate-100">
+        <div class="w-1/4 h-40 bg-slate-100">
                 
         </div>
-        <div class="w-1/4 h-80 bg-slate-100">
+        <div class="w-1/4 h-40 bg-slate-100">
                 
         </div>
 

@@ -1,0 +1,11 @@
+
+.img-link-product:hover > .img-product
+{
+    opacity: 1;
+    transition-duration: 300ms;
+}
+
+.img-product{
+    opacity: 0.2;
+    transition-duration: 300ms;
+}
