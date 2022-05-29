@@ -24,10 +24,10 @@ class ProductSeeder extends Seeder
         //     'imgurl'=>'/img/redcar.jpg'
         // ]);
 
-        DB::table('products')->insert([
-            'name'=>'auto 1',
-            'description'=>'el auto es rojo',
-            'imgurl'=>'/img/redcar.jpg'
-        ]);
+        // DB::table('products')->insert([
+        //     'name'=>'auto 1',
+        //     'description'=>'el auto es rojo',
+        //     'imgurl'=>'/img/redcar.jpg'
+        // ]);
     }
 }

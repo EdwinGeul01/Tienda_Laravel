@@ -27,21 +27,41 @@
 
 
 <div class="mt-16  w-4/6 mx-auto">
-    <h1 class="text-white pl-5 text-2xl font-light bg-slate-500"> 🚗🚙BIENVENIDOS🚐</h1>
-    <div class="w-[100%] mb-10 mt-10 flex flex-row space-x-10 justify-center" >
-        <div class="w-1/4 h-40 bg-slate-100 relative flex flex-col justify-center">
-            <a href="#" class="img-link-product">
-                <p class="z-[1] text-black text-center text-3xl select-none" >AUTO ROJO</p>
-                <img src="/img/redcar.jpg" alt="" class="object-fill w-[100%] h-[100%] shadow-black shadow-sm absolute z-0  top-0 img-product" >
-            </a>
+    <h1 class="text-white pl-5 text-2xl font-light bg-slate-500"> 🚗🚙BIENVENIDOS ( ultimos 6 productos )🚐</h1>
+    <div class="w-4/5 mb-10  flex flex-row  flex-wrap mx-auto " >
+    
+    
+ @php
+     $a = 0;
+ @endphp
 
-        </div>
-        <div class="w-1/4 h-40 bg-slate-100">
+@foreach ($products as $product)
+    
+@if ($a >= 6 )
+@break
+@endif
+
+<div class="w-[30%] h-40 bg-slate-100 relative mt-3 ml-2 flex flex-col justify-center ">
+    <a href="#" class="img-link-product">
+        <p class="z-[1] text-black text-center text-3xl select-none" >{{ $product->name}}</p>
+        <img src="{{ $product->imgurl}}" alt="" class="object-fill w-[100%] h-[100%] shadow-black shadow-sm absolute z-0  top-0 img-product" >
+    
+    </a>
+</div>
+
+@php
+$a += 1;
+@endphp  
+
+@endforeach    
+  
+
+
+
+
+        {{-- <div class="w-1/4 h-40 bg-slate-100">
                 
-        </div>
-        <div class="w-1/4 h-40 bg-slate-100">
-                
-        </div>
+        </div> --}}
 
         
     </div>

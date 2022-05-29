@@ -11,14 +11,16 @@
 </head>
 <body> 
     <nav class="h-[70px] bg-blue-900 ">
-        <div class="w-5/6 mx-auto h-[100%] flex flex-row">
+        <div class="lg:w-[100%] xl:w-5/6 mx-auto h-[100%] flex flex-row">
             <div class="w-2/6 text-white flex flex-col justify-center items-center h-[100%] bg-blue-800">
-                <h1 class="font-light text-3xl">TIENDA NORMAL</h1>
+                <h1 class="font-light  text-[1vh] sm:text-[2vh] md:text-[3vh]">TIENDA NORMAL</h1>
             </div>
-            <div class="w-3/6 text-white justify-end h-[100%] flex flex-row space-x-8 items-center">
-                <a href="" class="font-light text-[2vh]">inicio</a>
-                <a href="" class="font-light text-[2vh]">productos</a>
-                <a href="" class="font-light text-[2vh]">contactanos</a>
+            <div class="md:w-4/6 xl:w-3/6 mr-5  text-white justify-end h-[100%] flex flex-row space-x-8 items-center  text-[1vh] sm:text-[1.2vh] md:text-[2vh] ">
+                <a href="/" class="font-light ">inicio</a>
+                <a href="" class="font-light">productos</a>
+                <a href="/addproduct" class="font-light ">Agregar  productos</a>
+                <a href="/addproduct" class="font-light ">Contactanos</a>
+
             </div>
         </div>
 

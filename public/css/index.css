@@ -9,3 +9,25 @@
     opacity: 0.2;
     transition-duration: 300ms;
 }
+
+#btn_data_submit
+{
+
+    transition-duration: 500ms;
+
+}
+
+
+@media ( hover:hover) {
+
+
+
+#btn_data_submit:hover
+{
+
+    background-color: rgb(98, 134, 255);
+    transition-duration: 500ms;
+
+}
+    
+}
